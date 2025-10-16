@@ -1,0 +1,7 @@
+
+
+function initializeRulesPage(){
+
+    
+};
+//initializeRulesPage();

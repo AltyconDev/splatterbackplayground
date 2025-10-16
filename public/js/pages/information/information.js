@@ -1,0 +1,5 @@
+
+function initializeInformationPage(){
+
+};
+//initializeInformationPage();

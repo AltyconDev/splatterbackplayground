@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splatterback Playground</title>
+    <meta
+      name="description"
+      content="Splatterback Playground is a country dirtbike track located in Southeastern Iowa, United States, providing a fun, safe, and familiy oriented riding enviroment for the supercross community."
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="js/common.js"></script>
+    <script type="module" src="js/index.js"></script>
+</head>
+<body>
+    <div class="bg-img-wrapper">
+        <img src="img/site/two-riders.jpg" alt="" class="bg-img">    
+    </div>
+    <header class="primary-header">
+        <div class="website-name">Splatterback</div>
+        <div class="social-media-links">
+            <a href="" class="link">F</a>
+        </div>
+        <button type="button"
+                class="navigation-btn" 
+                data-primary-navigation-menu-button>
+                <span></span>
+        </button>
+        <nav class="primary-navigation" data-primary-navigation-menu>
+            <ul>
+                <li><a href="/pages/rules.html" class="link">Rules<span class="link-speed-line"></span></a></li>
+                <li><a href="/pages/location.html" class="link">Location<span class="link-speed-line"></span></a></li>
+                <li><a href="/pages/information.html" class="link">Information<span class="link-speed-line"></span></a></li>
+                <li><a href="/pages/photos.html" class="link">Photos<span class="link-speed-line"></span></a></li>
+                <li><a href="/pages/videos.html" class="link">Videos<span class="link-speed-line"></span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home">
+            <div class="home-logo-wrapper">
+                <img src="/img/site/sbk-logo-white.png" class="logo-image" alt="">
+                <div class="home-logo-sub-text"><span>Stockport, Iowa</span></div>
+            </div>
+
+            <section class="home-display">
+
+                <article class="no-event-display" data-no-event-display>
+                    <p>No scheduled events</p>
+                    <p>at this time</p>
+                    <div class="event-pricing">
+                        <span class="spectator">$5 spectators</span>
+                        <span class="rider">$35 riders</span>
+                    </div>
+                </article>
+                <article class="event-display" data-event-display>
+                    <div class="event-date" data-event-date>Tuembender 38th, 25 B.C</div>
+                    <h2 class="event-title" data-event-title>The Event Title</h2>
+                    <p class="event-text" data-event-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatum, eos fugit accusantium similique architecto et atque sint repudiandae tempore.</p>
+                    <div class="event-pricing">
+                        <span class="spectator">$<span data-pricing-spectator>5</span> spectators</span>
+                        <span class="rider">$<span data-pricing-rider>35</span> riders</span>
+                    </div>
+                </article>
+
+            </section>
+
+            <section class="featured-image">
+                <h2>Ride Fast - Play Hard</h2>
+                <figure>
+                    <img src="/img/site/photos/top-view2.jpg" alt="">
+                    <figcaption>Credit: <span>Someone who exists at sometime</span></figcaption>
+                </figure>
+            </section>
+    </main>
+    <footer class="primary-footer">
+        <div class="footer-logo-wrapper">
+            <img src="/img/site/sbk-logo-white.png" 
+            class="logo-image" 
+            alt=""
+            width="200">
+            <div class="footer-logo-sub-text"><span>Stockport, Iowa</span></div>
+            <div class="copyright">&copy; 2025</div>
+        </div>
+        <nav class="footer-navigation">
+            <ul>
+                <li><a href="/pages/rules.html" class="link">Rules</a></li>
+                <li><a href="/pages/location.html" class="link">Location</a></li>
+                <li><a href="/pages/information.html" class="link">Information</a></li>
+                <li><a href="/pages/photos.html" class="link">Photos</a></li>
+                <li><a href="/pages/videos.html" class="link">Videos</a></li>
+                <!-- <li><a href="/" class="link">Home</a></li> -->
+                <li><a href="/auth/authorize" class="link">Admin</a></li>
+            </ul>
+        </nav>
+        <div class="created-by">Created By: Clayton McDaniel</div>
+    </footer>
+    <div class="image-viewer" data-image-viewer>
+        <img src="">
+    </div>
+</body>
+</html>
